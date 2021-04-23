@@ -1,13 +1,16 @@
 package com.example.smartdevs.proyectofinalmoviles;
 
 import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
 
-public class ViewPagerAdapter extends FragmentStateAdapter {
+public class ViewPagerAdapter<string> extends FragmentStateAdapter {
     public ViewPagerAdapter(@NonNull FragmentActivity fragmentActivity) {
         super(fragmentActivity);
     }
@@ -22,6 +25,7 @@ public class ViewPagerAdapter extends FragmentStateAdapter {
         fragment.setArguments(args);
         return fragment;
     }
+
 
     @Override
     public int getItemCount() {

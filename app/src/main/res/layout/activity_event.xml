@@ -17,7 +17,8 @@
         android:ems="10"
         android:inputType="text"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/txtUbicacion"
@@ -28,7 +29,8 @@
         android:ems="10"
         android:inputType="text"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/txtFecha"
@@ -39,7 +41,8 @@
         android:ems="10"
         android:inputType="date|text"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/lugarFecha" />
+        app:layout_constraintTop_toBottomOf="@+id/lugarFecha"
+        android:autofillHints="" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -55,12 +58,12 @@
             android:id="@+id/btnCancel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="5dp"
-            android:layout_marginRight="2.5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="2.5dp"
             android:layout_marginBottom="5dp"
             android:layout_weight="1"
             android:backgroundTint="#ADF30202"
-            android:text="Cancelar"
+            android:text="@string/cancelarE"
             android:textColor="#FFFFFF" />
 
         <Button
@@ -72,7 +75,7 @@
             android:layout_marginBottom="5dp"
             android:layout_weight="1"
             android:background="#901FF44A"
-            android:text="Guardar"
+            android:text="@string/guardarE"
             android:textColor="#D6373333" />
     </LinearLayout>
 
@@ -86,7 +89,8 @@
         android:backgroundTint="#938BD100"
         android:spinnerMode="dropdown"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        tools:visibility="visible" />
 
 
     <Spinner
@@ -108,7 +112,7 @@
         android:layout_height="16dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="50dp"
-        android:text="Nombre del evento"
+        android:text="@string/nombre_del_evento"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -120,7 +124,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
-        android:text="Ubicacion"
+        android:text="@string/ubicacion"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtUbicationName" />
@@ -131,7 +135,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
-        android:text="Contactos"
+        android:text="@string/contactos"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtUbicacion" />
@@ -142,7 +146,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
-        android:text="Tipo de evento"
+        android:text="@string/tipo_de_evento"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ddcontacto" />
@@ -153,7 +157,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
-        android:text="Lugar y fecha"
+        android:text="@string/lugar_y_fecha"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ddTipoEvent" />

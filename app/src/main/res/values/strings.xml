@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">proyectofinalmoviles</string>
+    <string name="nombre">Nombre</string>
+    <string name="telefono">Teléfono</string>
+    <string name="todo">TODO</string>
+    <string name="guardarC">Guardar</string>
+    <string name="cancelarC">Cancelar</string>
+    <string name="cancelarE">Cancelar</string>
+    <string name="guardarE">Guardar</string>
+    <string name="nombre_del_evento">Nombre del evento</string>
+    <string name="ubicacion">Ubicacion</string>
+    <string name="contactos">Contactos</string>
+    <string name="tipo_de_evento">Tipo de evento</string>
+    <string name="lugar_y_fecha">Lugar y fecha</string>
+    <string name="nombreEvento">Nombre</string>
+    <string name="fechaEvento">TextView</string>
+    <string name="eliminarEvento">Eliminar</string>
 </resources>

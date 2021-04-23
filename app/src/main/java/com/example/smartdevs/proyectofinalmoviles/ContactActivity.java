@@ -15,13 +15,8 @@ public class ContactActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_contact);
 
-        this.btnCancel = (Button) findViewById(R.id.btnCancel);
-
-        this.btnCancel.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                finish();
-            }
-        });
+        //boton cancelar
+        this.btnCancel = findViewById(R.id.btnCancel);
+        this.btnCancel.setOnClickListener(v -> finish());
     }
 }
